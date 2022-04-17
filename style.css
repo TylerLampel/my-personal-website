@@ -1,8 +1,12 @@
-body {
-    background-color: indigo;
+#wrapper {
+    position: absolute;
+    top:0px;
+    left: 50%;
+    margin-left:-500px;
 }
-img#brother{
-    onhover:pointer;
+
+body {
+    background-color: white;
 }
 img#water {
     onclick:pointer;
