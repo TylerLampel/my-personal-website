@@ -1,31 +1,48 @@
 #wrapper {
     position: absolute;
-    top:0px;
-    left: 50%;
-    margin-left:-500px;
+    border-left: 200px solid indigo;
+    border-right: 200px solid indigo;
+    border-top: 100px solid indigo;
 }
-
 body {
-    background-color: white;
+    background-color: black;
+    text-align: center;
 }
-img#water {
-    onclick:pointer;
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blueviolet;
 }
-img#demo {
-    onclick:pointer;
+#intro {
+    text-align: center;
+    font-size: 20px;
 }
-img#jujuOpen {
-    onclick:pointer;
+#list {
+    text-align:left;
 }
-img#hero {
-    onclick:pointer;
+h2 {
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aqua;
 }
-img#slayer {
-    onclick:pointer;
+h3 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:aquamarine;
 }
-img#luffy {
-    onclick:pointer;
+p {
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
 }
-img#thanks {
-    onclick:pointer;
+.column {
+    float:left;
+    width: 25%;
+    padding: 30px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }

@@ -1,6 +1,6 @@
 const h2 = document.createElement("h2");
 h2.textContent = "Welcome!";
-document.querySelector("body").appendChild(h2);
+document.querySelector("h1").appendChild(h2);
 
 let playSound = () => new Audio("./sounds/BROTHER!-Hulk_Hogan.mp3").play()
 let playSound1 = () => new Audio("./sounds/WaterDropletSound.mp3").play()
